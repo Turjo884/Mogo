@@ -842,6 +842,304 @@ footer .last-container .last-footer-h span{
 /* End Footer Section */
 
 
+/* Start Responsive For Tablet Device */
+@media (min-width: 576px) and (max-width: 768px){
+    .navbar-toggler:focus {
+        box-shadow: 0 0 0 0;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        color: #fff;
+        padding: 5px 0;
+    }
+    .header-body {
+        padding: 30px 0 150px;
+    }
+    .header-body .signature {
+        font-size: 28px;
+    }
+    .header-body h1 {
+        font-size: 45px;
+    }
+    .header-body .title-border {
+        margin: 30px auto;
+    }
+    .item h6 {
+        padding: 10px 0;
+        margin-bottom: 20px;
+    }
+    .about .signature {
+        font-size: 28px;
+    }
+    .about h2 {
+        font-size: 35px;
+    }
+    .about .header-title {
+        margin: 20px auto 30px;
+    }
+    .about p {
+        padding: 0 15px 60px;
+    }
+    .img-div {
+        position: relative;
+        overflow: hidden;
+        transition: .5s ease-in-out;
+        margin-bottom: 60px;
+    }
+    .img-div {
+        margin-bottom: 60px;
+        text-align: center;
+    }
+    .about {
+        padding: 80px 0;
+    }
+    .fact .side-border {
+         border-top: 0;
+         border-bottom: 0;
+         padding: 0;
+    }
+    .fact p {
+        padding: 0;
+    }
+    .service {
+        padding: 100px 0;
+    }
+    .service .signature {
+        font-size: 28px;
+    }
+    .service h2 {
+        font-size: 35px;
+    }
+    .service .header-title {
+        margin: 20px auto 30px;
+    }
+    .service .service-item {
+        padding: 25px 0px;
+    }
+    .service-item img{
+        display: block;
+        margin: 0 auto;
+    }
+    .service-item h6 {
+        padding-top: 15px;
+        text-align: center;
+    }
+    .service-item p {
+        text-align: center;
+        padding: 0 40px;
+    }
+    .feature .signature {
+        font-size: 28px;
+    }
+    .feature h2 {
+        font-size: 35px;
+    }
+    .feature .header-title {
+        margin: 20px auto 30px;
+    }
+    .feature::before {
+        bottom: -10%;
+        right: 10%;
+    }
+    .service-2 .signature {
+        padding: 0;
+    }
+    .service-2 h2 {
+        font-size: 35px;
+    }
+    .service-2 .header-title {
+        margin: 20px auto 30px;
+    }
+    .service-2 p {
+        text-align: center;
+        padding: 0 40px 40px;
+    }
+    .service-2 .whole-item {
+        margin: 40px 0 4px;
+    }
+    .whole-item img{
+        display: block;
+        margin: 0 auto;
+    }
+    .content-item h6 {
+        text-align: center;
+    }
+    .content-item .fa-angle-down,
+    .content-item .fa-angle-up {
+        display: block;
+        text-align: center!important;
+    }
+    .owl-carousel .owl-item img {
+        width: 15%;
+        margin: 0 auto;
+    }
+    .owl-prev {
+        top: 30%;
+        left: 5%;
+    }
+    .owl-next {
+        top: 30%;
+        right: 5%;
+    }
+    .quote p {
+        margin-bottom: 5px;
+        padding: 10px 60px;
+        text-align: center;
+    }
+    .quote .item .header-title {
+        display: block;
+        margin: 0 auto;
+    }
+    .quote .item .signature {
+        display: block;
+        font-size: 16px;
+        text-align: center;
+        margin-top: 5px;
+    }
+    .team .signature {
+        font-size: 28px;
+    }
+    .team h2 {
+        font-size: 35px;
+    }
+    .team .header-title {
+        margin: 20px auto 30px;
+    }
+    .team p {
+        text-align: center;
+        padding: 0 40px 40px;
+    }
+    .team h6 {
+        padding: 0;
+    }
+    .team .item-para {
+        margin-bottom: 80px;
+    }
+    .logo {
+        margin: 0;
+    }
+    .logo img{
+        display: block;
+        margin: 30px auto;
+    }
+    .work .signature {
+        font-size: 28px;
+    }
+    .work h2 {
+        font-size: 35px;
+    }
+    .work .header-title {
+        margin: 20px auto 30px;
+    }
+    .work p {
+        text-align: center;
+        padding: 0 40px 40px;
+    }
+    .work-img-div {
+        margin-bottom: 25px;
+    }
+    .owl-carousel .owl-item img {
+        width: 25%;
+    }
+    .testimonial p {
+        padding: 0 60px;
+        text-align: center;
+    }
+    .testimonial .item .signature {
+        display: block;
+        text-align: center;
+        padding-top: 5px;
+    }
+    .testimonial .item .header-title {
+        display: block;
+        margin: 10px auto 0;
+    }
+    .people .signature {
+       font-size: 28px;
+    }
+    .people h2 {
+        font-size: 35px;
+    }
+    .people img{
+        display: block;
+        margin: 0 auto;
+    }
+    .people .header-title {
+        margin: 20px auto 75px;
+    }
+    .people h6 {
+        text-align: center;
+        margin: 12px 0 0;
+    }
+    .people .people-first-para {
+        text-align: center;
+    }
+    .people .people-title {
+        margin: 15px auto 18px;
+    }
+    .people .people-sec-para {
+        padding: 0 60px 30px;
+        text-align: center;
+    }
+    .blog .signature {
+        font-size: 28px;
+    }
+    .blog h2 {
+        font-size: 35px;
+    }
+    .blog .header-title {
+        margin: 20px auto 40px;
+    }
+    .blog .full-img {
+        text-align: center;
+    }
+    .blog .img-content {
+        width: 13%;
+        height: 25%;
+    }
+    .img-content h5 {
+        font-size: 18px;
+    }
+    .blog h6 {
+        text-align: center;
+    }
+    .blog p {
+        text-align: center;
+        font-size: 13px;
+    }
+    footer h2 {
+        text-align: center;
+    }
+    footer p {
+        text-align: center;
+    }
+    footer h3 {
+        margin: 30px 0 20px;
+        text-align: center;
+    }
+    footer ul img{
+        display: block;
+        margin: 0 auto;
+    }
+    footer h4 {
+        text-align: center;
+        margin: 15px 0;
+    }
+    footer .last-container .last-footer-h {
+        font-size: 12px;
+    }
+    footer .last-container {
+        padding-top: 40px;
+    }
+    footer .footer-insta img{
+        display: block;
+        margin: 10px auto;
+    }
+}
+}
+/* End Responsive For Tablet Device */
+
+
+
 /* Start Responsive for Mobile Device */
 @media (min-width: 320px) and (max-width: 576px){
     .navbar-toggler:focus {
