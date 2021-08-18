@@ -880,15 +880,19 @@ footer .last-container .last-footer-h span{
         padding: 0 15px 60px;
     }
     .img-div {
+        width: 380px;
+        height: 270px;
+        display: block;
+        margin: 0 auto 60px;
         position: relative;
         overflow: hidden;
         transition: .5s ease-in-out;
-        margin-bottom: 60px;
-    }
-    .img-div {
-        margin-bottom: 60px;
         text-align: center;
     }
+    /* .img-div {
+        margin-bottom: 60px;
+        text-align: center;
+    } */
     .about {
         padding: 80px 0;
     }
@@ -1040,6 +1044,10 @@ footer .last-container .last-footer-h span{
         padding: 0 40px 40px;
     }
     .work-img-div {
+        width: 480px;
+        height: 390px;
+        display: block;
+        margin: 0 auto;
         margin-bottom: 25px;
     }
     .work-img-div img{
