@@ -389,7 +389,7 @@ header::after{
 .owl-next{
     position: absolute;
     top: 4%;
-    right: 20%;
+    right: 22%;
     color: #cccccc!important;
     font-size: 40px!important;
 }
@@ -1435,4 +1435,4 @@ footer .last-container .last-footer-h span{
 /* End Responsive for Mobile Device */
 
 
-
+ 
