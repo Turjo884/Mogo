@@ -893,9 +893,7 @@ footer .last-container .last-footer-h span{
         padding: 80px 0;
     }
     .fact .side-border {
-         border-top: 0;
-         border-bottom: 0;
-         padding: 0;
+       border: 0;
     }
     .fact p {
         padding: 0;
@@ -956,6 +954,10 @@ footer .last-container .last-footer-h span{
     .service-2 .whole-item {
         margin: 40px 0 4px;
     }
+    .service-2 img {
+        display: block;
+        margin: 0 auto;
+    }
     .whole-item img{
         display: block;
         margin: 0 auto;
@@ -980,9 +982,12 @@ footer .last-container .last-footer-h span{
         top: 30%;
         right: 5%;
     }
+    .owl-carousel .owl-item img {
+        width: 10%;
+    }
     .quote p {
         margin-bottom: 5px;
-        padding: 10px 60px;
+        padding: 10px 131px;
         text-align: center;
     }
     .quote .item .header-title {
@@ -1037,11 +1042,15 @@ footer .last-container .last-footer-h span{
     .work-img-div {
         margin-bottom: 25px;
     }
+    .work-img-div img{
+        display: block;
+        margin: 0 auto 25px;
+    }
     .owl-carousel .owl-item img {
-        width: 25%;
+        width: 10%;
     }
     .testimonial p {
-        padding: 0 60px;
+        padding: 0 135px;
         text-align: center;
     }
     .testimonial .item .signature {
@@ -1051,7 +1060,7 @@ footer .last-container .last-footer-h span{
     }
     .testimonial .item .header-title {
         display: block;
-        margin: 10px auto 0;
+        margin: 15px auto 8px;
     }
     .people .signature {
        font-size: 28px;
@@ -1093,8 +1102,9 @@ footer .last-container .last-footer-h span{
         text-align: center;
     }
     .blog .img-content {
-        width: 13%;
-        height: 25%;
+        width: 8%;
+        height: 23%;
+        left: 140px;
     }
     .img-content h5 {
         font-size: 18px;
@@ -1252,6 +1262,10 @@ footer .last-container .last-footer-h span{
     }
     .service-2 .whole-item {
         margin: 40px 0 4px;
+    }
+    .service-2 img {
+        display: block;
+        margin: 0 auto;
     }
     .whole-item img{
         display: block;
